@@ -1,15 +1,32 @@
 package test;
 
+/**
+ * 간단한 계산을 처리하는 클래스
+ * @author mezeet
+ */
 public class BasicMath {
 
-	public Object addition(int i, int j) {
+	
+	/**
+	 *  더하기 연산 메소드
+	 * @param int i 기본 변수
+	 * @param int j 기본 변수
+	 * @return int i+j 덧셈 연산의 결과
+	 */
+	public int addition(int i, int j) {
 		
-		return null;
+		return i+j;
 	}
 
-	public Object multiply(int i, int j) {
-		// TODO Auto-generated method stub
-		return null;
+	/**
+	 *  곱하기 연산 메소드
+	 * @param int i 기본 변수
+	 * @param int j 기본 변수
+	 * @return int i*j 곱셈 연산의 결과
+	 */
+	public int multiply(int i, int j) {
+		
+		return i*j;
 	}
 
 }
