@@ -14,8 +14,8 @@ public class BasicMath {
 	 * @return int i+j 덧셈 연산의 결과
 	 */
 	public int addition(int i, int j) {
-		
-		return i+j;
+		int k=i+j;
+		return k;
 	}
 
 	/**
@@ -25,8 +25,8 @@ public class BasicMath {
 	 * @return int i*j 곱셈 연산의 결과
 	 */
 	public int multiply(int i, int j) {
-		
-		return i*j;
+		int k =i*j;
+		return k;
 	}
 
 }
