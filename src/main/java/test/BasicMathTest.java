@@ -16,7 +16,6 @@ import org.junit.Test;
  */
 
 public class BasicMathTest extends TestCase {
-
 	
 	private BasicMath testItem ;
 	
